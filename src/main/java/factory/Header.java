@@ -25,6 +25,7 @@ public class Header {
     }
 
     public void clickLogInButton(){
+
         logInLink.click();
     }
 

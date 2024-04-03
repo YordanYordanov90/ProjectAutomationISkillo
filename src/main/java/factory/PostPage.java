@@ -19,6 +19,8 @@ public class PostPage {
     private WebElement postCaption;
     @FindBy(id = "create-post")
     private WebElement createPostButton;
+    @FindBy(id = "nav-link-new-post")
+    private WebElement newPostButton;
 
 
 
@@ -27,6 +29,7 @@ public class PostPage {
         PageFactory.initElements(webDriver, this);
     }
      public boolean isNewPostLoaded(){
+
         return newPostTitle.isDisplayed();
      }
 
@@ -48,6 +51,10 @@ public class PostPage {
         postCaption.sendKeys(text);
      }
      public void clickCreatPost(){
+
         createPostButton.click();
+     }
+     public void clickNewPostButton(){
+        newPostButton.click();
      }
 }

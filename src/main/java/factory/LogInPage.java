@@ -44,7 +44,7 @@ public class LogInPage {
     public void fillPassword(String password){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOf(passwordTextField));
-        usernameTextField.sendKeys(password);
+        passwordTextField.sendKeys(password);
     }
 
     public void checkRememberMeBox( ){

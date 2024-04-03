@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="567ecd55-0542-4b96-962a-0cd868258d59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatPostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/TestObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +41,105 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/danch/IdeaProjects/ProjectAutomationISkillo/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.CreatPostTest.creatPost.executor": "Run",
+    "TestNG.CreatPostTest.executor": "Run",
+    "TestNG.LogInTest.executor": "Debug",
+    "TestNG.LogInTest.loginTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/danch/IdeaProjects/ProjectAutomationISkillo/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="TestNG.CreatPostTest.creatPost">
+    <configuration name="CreatPostTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutomationISkillo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTestingISkillo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTestingISkillo" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.CreatPostTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatPostTest.creatPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutomationISkillo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTestingISkillo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTestingISkillo" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.CreatPostTest" />
+      <option name="METHOD_NAME" value="creatPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutomationISkillo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTestingISkillo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTestingISkillo" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.LogInTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutomationISkillo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTestingISkillo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTestingISkillo" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.LogInTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CreatPostTest.creatPost" />
+        <item itemvalue="TestNG.CreatPostTest" />
+        <item itemvalue="TestNG.LogInTest.loginTest" />
+        <item itemvalue="TestNG.LogInTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -65,5 +157,16 @@
       <updated>1711564718493</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
