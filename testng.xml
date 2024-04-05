@@ -1,0 +1,11 @@
+<suite name="Test-method Suite" parallel="methods" thread-count="2" >
+    <test name="Test-method test" group-by-instances="true">
+        <classes>
+            <class name="WebTestingISkillo.LogInTest" />
+            <class name="WebTestingISkillo.CreatePostTest" />
+            <class name="WebTestingISkillo.DeletePostTest" />
+            <class name="WebTestingISkillo.FollowUserTest" />
+            <class name="WebTestingISkillo.LogOutTest" />
+        </classes>
+    </test>
+</suite>

@@ -16,6 +16,7 @@ public class HomePage {
     }
 
     public void navigateTo(){
+
         this.webDriver.get(HOME_PAGE_URL);
     }
 

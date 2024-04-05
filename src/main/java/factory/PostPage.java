@@ -21,6 +21,12 @@ public class PostPage {
     private WebElement createPostButton;
     @FindBy(id = "nav-link-new-post")
     private WebElement newPostButton;
+    @FindBy(xpath = "//div[@class='post-img']")
+    private WebElement clickOnPostImg;
+    @FindBy(xpath = "//i[@class='fas fa-trash-alt']")
+    private WebElement deletePostButton;
+    @FindBy(xpath = "//button[@class='btn btn-primary btn-sm' and @type='button']")
+    private WebElement deleteButtonYes;
 
 
 
@@ -48,6 +54,7 @@ public class PostPage {
         return uploadPictureText.getAttribute("placeholder");
      }
      public void typePostCaption(String text){
+
         postCaption.sendKeys(text);
      }
      public void clickCreatPost(){
@@ -55,6 +62,17 @@ public class PostPage {
         createPostButton.click();
      }
      public void clickNewPostButton(){
+
         newPostButton.click();
      }
+
+     public void clickOnPostImage(){
+        clickOnPostImg.click();
+     }
+     public void clickDeletePostButton(){
+        deletePostButton.click();
+     }
+    public void clickDeleteYesButton(){
+        deleteButtonYes.click();
+    }
 }

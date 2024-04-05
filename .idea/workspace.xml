@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="567ecd55-0542-4b96-962a-0cd868258d59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/TestObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/DeletePostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/factory/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/Header.java" afterDir="false" />
@@ -16,6 +15,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +50,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.CreatPostTest.creatPost.executor": "Run",
     "TestNG.CreatPostTest.executor": "Run",
+    "TestNG.DeletePost.loginTest.executor": "Debug",
+    "TestNG.FollowUserTest.followUserTest.executor": "Run",
+    "TestNG.FollowUserTest.loginTest.executor": "Run",
     "TestNG.LogInTest.executor": "Debug",
     "TestNG.LogInTest.loginTest.executor": "Run",
+    "TestNG.LogOutTest.loginTest.executor": "Run",
+    "TestNG.LogOutTest.logoutTest.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -60,8 +66,15 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CreatPostTest.creatPost">
-    <configuration name="CreatPostTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danch\IdeaProjects\ProjectAutomationISkillo" />
+      <recent name="C:\Users\danch\IdeaProjects\ProjectAutomationISkillo\src\test\java" />
+      <recent name="C:\Users\danch\IdeaProjects\ProjectAutomationISkillo\target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LogOutTest.logoutTest">
+    <configuration name="DeletePostTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectAutomationISkillo" />
       <extension name="coverage">
         <pattern>
@@ -70,25 +83,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WebTestingISkillo" />
-      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.CreatPostTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreatPostTest.creatPost" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ProjectAutomationISkillo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WebTestingISkillo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="WebTestingISkillo" />
-      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.CreatPostTest" />
-      <option name="METHOD_NAME" value="creatPost" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.DeletePostTest" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FollowUserTest.followUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectAutomationISkillo" />
       <extension name="coverage">
         <pattern>
@@ -105,15 +101,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WebTestingISkillo" />
-      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.LogInTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.FollowUserTest" />
+      <option name="METHOD_NAME" value="followUserTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogInTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FollowUserTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectAutomationISkillo" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +119,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WebTestingISkillo" />
-      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.LogInTest" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.FollowUserTest" />
       <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogOutTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutomationISkillo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTestingISkillo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTestingISkillo" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.LogOutTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogOutTest.logoutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProjectAutomationISkillo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebTestingISkillo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebTestingISkillo" />
+      <option name="MAIN_CLASS_NAME" value="WebTestingISkillo.LogOutTest" />
+      <option name="METHOD_NAME" value="logoutTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,10 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreatPostTest.creatPost" />
-        <item itemvalue="TestNG.CreatPostTest" />
-        <item itemvalue="TestNG.LogInTest.loginTest" />
-        <item itemvalue="TestNG.LogInTest" />
+        <item itemvalue="TestNG.LogOutTest.logoutTest" />
+        <item itemvalue="TestNG.FollowUserTest.followUserTest" />
+        <item itemvalue="TestNG.FollowUserTest.loginTest" />
+        <item itemvalue="TestNG.LogOutTest.loginTest" />
+        <item itemvalue="TestNG.DeletePostTest.loginTest" />
       </list>
     </recent_temporary>
   </component>

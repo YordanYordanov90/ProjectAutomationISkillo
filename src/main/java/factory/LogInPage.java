@@ -30,7 +30,7 @@ public class LogInPage {
         this.webDriver.get(PAGE_URL);
     }
 
-    boolean isUrlLoaded(){
+     public boolean isUrlLoaded(){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         return wait.until(ExpectedConditions.urlToBe(PAGE_URL));
     }

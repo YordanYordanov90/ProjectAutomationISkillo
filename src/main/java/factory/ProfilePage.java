@@ -11,6 +11,7 @@ public class ProfilePage {
     private final WebDriver webDriver;
 
     public ProfilePage(WebDriver driver) {
+
         this.webDriver = driver;
     }
 

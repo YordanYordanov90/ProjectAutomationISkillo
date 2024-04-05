@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 
 
-public class CreatPostTest extends TestObject{
+public class CreatePostTest extends TestObject{
 
     @DataProvider(name="getUser")
     public Object[][] getUsers() {
@@ -23,7 +23,7 @@ public class CreatPostTest extends TestObject{
     }
 
     @Test(dataProvider = "getUser")
-    public void creatPost(String username, String password, String userId, File postPicture, String caption){
+    public void createPost(String username, String password, String userId, File postPicture, String caption){
 
         WebDriver webDriver = super.getWebDriver();
         Header header = new Header(webDriver);

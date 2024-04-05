@@ -17,6 +17,12 @@ public class Header {
     private WebElement profilePageLink;
     @FindBy(id = "nav-link-new-post")
     private WebElement newPostLink;
+    @FindBy(xpath = "//a[@class='nav-link']")
+    private WebElement logOutButton;
+    @FindBy(id = "search-bar")
+    private WebElement searchBar;
+    @FindBy(xpath = "//button[@class='btn btn-primary ng-star-inserted']")
+    private WebElement followButton;
 
 
     public Header(WebDriver driver) {
@@ -36,9 +42,24 @@ public class Header {
     }
 
     public void clickNewPostButton(){
+
         newPostLink.click();
     }
     boolean isLogInLinkEnabled(){
+
         return logInLink.isEnabled();
+    }
+    public void clickOnLogOutButton(){
+        WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
+        wait.until(ExpectedConditions.elementToBeClickable(logOutButton));
+        logOutButton.click();
+    }
+    public void fillSearchBar(){
+        WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(60));
+        wait.until(ExpectedConditions.elementToBeClickable(searchBar));
+        searchBar.sendKeys("p0li0m");
+    }
+    public void clickFollowButton(){
+        followButton.click();
     }
 }
