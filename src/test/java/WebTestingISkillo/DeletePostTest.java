@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import java.io.File;
 
 public class DeletePostTest extends TestObject {
-
     @DataProvider(name="getUser")
     public Object[][] getUsers() {
         File postPicture = new File("src\\test\\resources\\upload\\Funny-panda-cartoon-vector.jpg");
@@ -20,11 +19,9 @@ public class DeletePostTest extends TestObject {
 
         };
     }
-
     @Test(dataProvider = "getUser")
     public void deletePostTest(String username, String password, String userId){
         WebDriver webDriver = super.getWebDriver();
-        HomePage homePage = new HomePage(webDriver);
         Header header = new Header(webDriver);
         LogInPage logInPage = new LogInPage(webDriver);
         ProfilePage profilePage = new ProfilePage(webDriver);
@@ -43,9 +40,6 @@ public class DeletePostTest extends TestObject {
         postPage.clickDeleteYesButton();
 
         Assert.assertTrue(profilePage.isUrlLoaded(userId), "Current page in not profile page for " + userId + " user");
-
-
-
     }
 
 }

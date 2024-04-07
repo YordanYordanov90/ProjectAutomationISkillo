@@ -15,8 +15,6 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 public class LogInTest extends TestObject {
-
-
     @DataProvider(name="getUser")
     public Object[][] getUsers() {
         return new Object[][]{
@@ -25,7 +23,6 @@ public class LogInTest extends TestObject {
 
         };
     }
-
     @Test(dataProvider = "getUser")
     public void loginTest(String username, String password, String userId){
         WebDriver webDriver = super.getWebDriver();

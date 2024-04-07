@@ -29,12 +29,10 @@ public class LogOutTest extends TestObject {
 
         logInPage.navigateTo();
         logInPage.completeSignIn(username, password);
-        
+
         header.clickOnLogOutButton();
 
         boolean isUrlLoaded = logInPage.isUrlLoaded();
         Assert.assertTrue(isUrlLoaded, "Home page URL is not loaded correctly.");
-
-
     }
 }

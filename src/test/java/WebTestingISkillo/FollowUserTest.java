@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import java.io.File;
 
 public class FollowUserTest extends TestObject {
-
     @DataProvider(name = "getUser")
     public Object[][] getUsers() {
         File postPicture = new File("src\\test\\resources\\upload\\Funny-panda-cartoon-vector.jpg");
@@ -19,9 +18,8 @@ public class FollowUserTest extends TestObject {
                 {"user1900", "123456", "5612",},
         };
     }
-
     @Test(dataProvider = "getUser")
-    public void followUserTest(String username, String password, String userId) {
+    public void followUserTest(String username, String password) {
         WebDriver webDriver = super.getWebDriver();
         HomePage homePage = new HomePage(webDriver);
         Header header = new Header(webDriver);
@@ -32,7 +30,7 @@ public class FollowUserTest extends TestObject {
         logInPage.navigateTo();
         logInPage.completeSignIn(username, password);
 
-        header.fillSearchBar();
+        header.fillSearchBar("p0li0m");
         header.clickFollowButton();
     }
 }

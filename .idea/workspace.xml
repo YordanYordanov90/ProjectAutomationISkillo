@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="567ecd55-0542-4b96-962a-0cd868258d59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/DeletePostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/factory/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/DeletePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/DeletePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -42,30 +40,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.CreatPostTest.creatPost.executor": "Run",
-    "TestNG.CreatPostTest.executor": "Run",
-    "TestNG.DeletePost.loginTest.executor": "Debug",
-    "TestNG.FollowUserTest.followUserTest.executor": "Run",
-    "TestNG.FollowUserTest.loginTest.executor": "Run",
-    "TestNG.LogInTest.executor": "Debug",
-    "TestNG.LogInTest.loginTest.executor": "Run",
-    "TestNG.LogOutTest.loginTest.executor": "Run",
-    "TestNG.LogOutTest.logoutTest.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/danch/IdeaProjects/ProjectAutomationISkillo/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.CreatPostTest.creatPost.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreatPostTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DeletePost.loginTest.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.FollowUserTest.followUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FollowUserTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogInTest.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.LogInTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogOutTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogOutTest.logoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/danch/IdeaProjects/ProjectAutomationISkillo/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\danch\IdeaProjects\ProjectAutomationISkillo" />
@@ -73,7 +71,7 @@
       <recent name="C:\Users\danch\IdeaProjects\ProjectAutomationISkillo\target" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LogOutTest.logoutTest">
+  <component name="RunManager" selected="TestNG.FollowUserTest.followUserTest">
     <configuration name="DeletePostTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProjectAutomationISkillo" />
       <extension name="coverage">
@@ -166,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogOutTest.logoutTest" />
         <item itemvalue="TestNG.FollowUserTest.followUserTest" />
+        <item itemvalue="TestNG.LogOutTest.logoutTest" />
         <item itemvalue="TestNG.FollowUserTest.loginTest" />
         <item itemvalue="TestNG.LogOutTest.loginTest" />
         <item itemvalue="TestNG.DeletePostTest.loginTest" />

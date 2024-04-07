@@ -8,9 +8,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
-
 public class CreatePostTest extends TestObject{
-
     @DataProvider(name="getUser")
     public Object[][] getUsers() {
         File postPicture = new File("src\\test\\resources\\upload\\Funny-panda-cartoon-vector.jpg");
@@ -21,7 +19,6 @@ public class CreatePostTest extends TestObject{
 
         };
     }
-
     @Test(dataProvider = "getUser")
     public void createPost(String username, String password, String userId, File postPicture, String caption){
 
@@ -30,7 +27,6 @@ public class CreatePostTest extends TestObject{
         LogInPage logInPage = new LogInPage(webDriver);
         ProfilePage profilePage = new ProfilePage(webDriver);
         PostPage postPage =new PostPage(webDriver);
-
 
         logInPage.navigateTo();
         logInPage.completeSignIn(username, password);

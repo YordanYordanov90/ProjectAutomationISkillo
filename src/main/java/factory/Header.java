@@ -54,10 +54,10 @@ public class Header {
         wait.until(ExpectedConditions.elementToBeClickable(logOutButton));
         logOutButton.click();
     }
-    public void fillSearchBar(){
+    public void fillSearchBar(String searchText){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(60));
         wait.until(ExpectedConditions.elementToBeClickable(searchBar));
-        searchBar.sendKeys("p0li0m");
+        searchBar.sendKeys(searchText);
     }
     public void clickFollowButton(){
         followButton.click();
