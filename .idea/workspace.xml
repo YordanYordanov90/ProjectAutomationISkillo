@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="567ecd55-0542-4b96-962a-0cd868258d59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/download/placeholder.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/reports/placeholder.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/placeholder.txt" beforeDir="false" />
@@ -29,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YordanYordanov90&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YordanYordanov90/ProjectAutomationISkillo.git&quot;,
+    &quot;accountId&quot;: &quot;df088055-7822-4413-906c-e3430ed018ef&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -167,18 +175,11 @@
       <list>
         <item itemvalue="TestNG.FollowUserTest.followUserTest" />
         <item itemvalue="TestNG.LogOutTest.logoutTest" />
-        <item itemvalue="TestNG.FollowUserTest.loginTest" />
         <item itemvalue="TestNG.LogOutTest.loginTest" />
+        <item itemvalue="TestNG.FollowUserTest.loginTest" />
         <item itemvalue="TestNG.DeletePostTest.loginTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
