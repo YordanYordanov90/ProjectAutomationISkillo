@@ -23,9 +23,7 @@ public class LogOutTest extends TestObject {
     public void logoutTest(String username, String password, String userId) {
         WebDriver webDriver = super.getWebDriver();
         Header header = new Header(webDriver);
-        HomePage homePage = new HomePage(webDriver);
         LogInPage logInPage = new LogInPage(webDriver);
-        ProfilePage profilePage = new ProfilePage(webDriver);
 
         logInPage.navigateTo();
         logInPage.completeSignIn(username, password);

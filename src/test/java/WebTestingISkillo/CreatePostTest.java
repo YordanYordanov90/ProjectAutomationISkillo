@@ -16,7 +16,6 @@ public class CreatePostTest extends TestObject{
         return new Object[][]{
 
                 {"user1900", "123456", "5612", postPicture, caption},
-
         };
     }
     @Test(dataProvider = "getUser")

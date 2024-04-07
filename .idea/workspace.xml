@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="567ecd55-0542-4b96-962a-0cd868258d59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/PostPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/CreatePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/FollowUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTestingISkillo/LogOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/download/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/reports/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/placeholder.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

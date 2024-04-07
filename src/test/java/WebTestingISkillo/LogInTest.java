@@ -29,7 +29,6 @@ public class LogInTest extends TestObject {
         HomePage homePage = new HomePage(webDriver);
         Header header = new Header(webDriver);
         LogInPage logInPage = new LogInPage(webDriver);
-        ProfilePage profilePage = new ProfilePage(webDriver);
 
         homePage.navigateTo();
         boolean isUrlLoaded = homePage.isUrlLoaded();
