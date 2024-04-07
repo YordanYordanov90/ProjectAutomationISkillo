@@ -28,17 +28,13 @@ public class PostPage {
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm' and @type='button']")
     private WebElement deleteButtonYes;
 
-
-
     public PostPage(WebDriver driver) {
         this.webDriver = driver;
         PageFactory.initElements(webDriver, this);
     }
      public boolean isNewPostLoaded(){
-
         return newPostTitle.isDisplayed();
      }
-
      public void uploadPicture(File file){
          WebElement uploadFile = webDriver.findElement(By.xpath("//*[@class='form-group']/input[@type='file']"));
          uploadFile.sendKeys(file.getAbsolutePath());
@@ -58,14 +54,11 @@ public class PostPage {
         postCaption.sendKeys(text);
      }
      public void clickCreatPost(){
-
         createPostButton.click();
      }
      public void clickNewPostButton(){
-
         newPostButton.click();
      }
-
      public void clickOnPostImage(){
         clickOnPostImg.click();
      }

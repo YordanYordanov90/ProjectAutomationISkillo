@@ -29,40 +29,33 @@ public class LogInPage {
     public void navigateTo(){
         this.webDriver.get(PAGE_URL);
     }
-
      public boolean isUrlLoaded(){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         return wait.until(ExpectedConditions.urlToBe(PAGE_URL));
     }
-
     public void fillUserName(String username){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOf(usernameTextField));
         usernameTextField.sendKeys(username);
     }
-
     public void fillPassword(String password){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOf(passwordTextField));
         passwordTextField.sendKeys(password);
     }
-
     public void checkRememberMeBox( ){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.elementToBeClickable(rememberMeCheckBox));
         rememberMeCheckBox.click();
     }
-
     boolean isCheckRememberMe(){
         return rememberMeCheckBox.isSelected();
     }
-
     public void clickSignIn(){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.elementToBeClickable(signInButton));
         signInButton.click();
     }
-
     public void completeSignIn(String username, String password){
         fillUserName(username);
         fillPassword(password);

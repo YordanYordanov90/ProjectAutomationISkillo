@@ -11,15 +11,11 @@ public class HomePage {
     private final WebDriver webDriver;
 
     public HomePage(WebDriver driver){
-
         this.webDriver = driver;
     }
-
     public void navigateTo(){
-
         this.webDriver.get(HOME_PAGE_URL);
     }
-
    public boolean isUrlLoaded(){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         return wait.until(ExpectedConditions.urlToBe(HOME_PAGE_URL));

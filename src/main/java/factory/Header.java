@@ -24,29 +24,23 @@ public class Header {
     @FindBy(xpath = "//button[@class='btn btn-primary ng-star-inserted']")
     private WebElement followButton;
 
-
     public Header(WebDriver driver) {
         this.webDriver = driver;
         PageFactory.initElements(driver, this);
     }
-
     public void clickLogInButton(){
 
         logInLink.click();
     }
-
     public void clickProfileButton(){
         WebDriverWait wait = new WebDriverWait(this.webDriver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.elementToBeClickable(profilePageLink));
         profilePageLink.click();
     }
-
     public void clickNewPostButton(){
-
         newPostLink.click();
     }
     boolean isLogInLinkEnabled(){
-
         return logInLink.isEnabled();
     }
     public void clickOnLogOutButton(){

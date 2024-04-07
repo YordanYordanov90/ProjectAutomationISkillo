@@ -11,10 +11,8 @@ public class ProfilePage {
     private final WebDriver webDriver;
 
     public ProfilePage(WebDriver driver) {
-
         this.webDriver = driver;
     }
-
     public boolean isUrlLoaded(){
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(15));
         return wait.until(ExpectedConditions.urlContains(PAGE_URL));
@@ -23,7 +21,5 @@ public class ProfilePage {
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(15));
         return wait.until(ExpectedConditions.urlContains(PAGE_URL + userId));
     }
-
-
 
 }
